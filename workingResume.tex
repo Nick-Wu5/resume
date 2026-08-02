@@ -92,6 +92,7 @@
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSectionSpacing}{\vspace{-7pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
@@ -119,27 +120,34 @@
     \href{https://github.com/Nick-Wu5}{\underline{github.com/Nick-Wu5}}
 \end{center}
 
-
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Purdue University, College of Science}{West Lafayette, IN}
       {Bachelor of Science in Computer Science; Certificate in Entrepreneurship and Innovation}{May 2028}
-    \resumeItemListStart
-      \resumeItem{GPA: 3.58/4.0}
-      \resumeItem{Relevant Coursework: Data Structures \& Algorithms, Operating Systems, Intro to Artificial Intelligence, Systems Programming, Vibe Coding, Object-Oriented Programming (Java), Programming in C, Human-Computer Interaction, Computer Architecture, Discrete Math, Linear Algebra, Statistical Methods}
-      \resumeItem{Entrepreneurship Certificate: Cross-disciplinary program focused on planning, designing, and scaling business solutions}
-    \resumeItemListEnd
+      \resumeItemListStart
+        \resumeItem{GPA: 3.58/4.0}
+        \resumeItem{Data Structures \& Algorithms, Operating Systems, Computer Architecture, Systems Programming, Object-Oriented Programming, Human-Computer Interaction, Fundamentals of Computer Graphics}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Software Engineering Intern}{May 2026 -- August 2026}
+      {Software Engineering Intern}{May 2026 -- Aug 2026}
       {SEP}{Westfield, IN}
       \resumeItemListStart
         \resumeItem{Reduced manual customs-filing data entry by 30\% for a Fortune 500 pharmaceutical client by redesigning the React form wizard's input flow with custom search dropdown components.}
@@ -147,7 +155,7 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Software Engineer (Contract)}{January 2026 -- May 2026}
+      {Software Engineer}{Jan 2026 -- May 2026}
       {Only Local Tickets}{Remote}
       \resumeItemListStart
         \resumeItem{Built an hourly ETL pipeline (TypeScript, Supabase Edge Functions) for 2026 World Cup event pages: ingests ticket listings from the Ticket Evolution API for all 104 games, aggregates min/avg/max prices per game, and writes hourly time-series data to Supabase.}
@@ -155,7 +163,7 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Data Engineering Intern}{May 2025 -- August 2025}
+      {Data Engineering Intern}{May 2025 -- Aug 2025}
       {Corteva Agriscience (via Insight Global)}{Indianapolis, IN}
       \resumeItemListStart
         \resumeItem{Automated supply chain workflows using Python, Alteryx, and Power Automate to streamline reporting, reducing ticket refresh report steps by 50\%. Presented and demonstrated the MVP to IT leadership (S\&OP, Seeds, Biologicals) and business stakeholders.}
@@ -164,50 +172,45 @@
 
   \resumeSubHeadingListEnd
 
-
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{WuXDesign Portfolio} $|$ \emph{Three.js, HTML/CSS/JS, Vite}}{May 2026 -- August 2026}
+          {\href{https://github.com/Nick-Wu5/nickwudev}{\textbf{WuXDesign Portfolio}} $|$ \emph{Three.js, HTML/CSS/JS, Vite}}{May 2026 -- Aug 2026}
           \resumeItemListStart
             \resumeItem{Built a personal portfolio site featuring an interactive 3D MacBook model with stickers mapped to navigation, using a lightweight vanilla JS/Vite stack to keep the experience fast and intuitive.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Price Is Right} $|$ \emph{Ray-Ban Meta Glasses, SwiftUI, Gemini Vision}}{StarkHacks Purdue, April 2026}
+          {\href{https://github.com/Zekepeke/Price-is-right}{\textbf{Price Is Right}} $|$ \emph{Ray-Ban Meta Glasses, SwiftUI, Gemini Vision}}{StarkHacks Purdue, Apr 2026}
           \resumeItemListStart
             \resumeItem{Engineered a voice-activated secondhand item valuation assistant for Meta Ray-Ban glasses, using AI vision to identify items and surface fair pricing across eBay and other secondary markets in the user's ear.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{TREC Team Queue} $|$ \emph{React (TypeScript), Tailwind CSS, Supabase}}{August 2024 -- December 2024}
+          {\href{https://github.com/Nick-Wu5/TREC_Team_Queue}{\textbf{TREC Team Queue}} $|$ \emph{React (TypeScript), Tailwind CSS, Supabase}}{Aug 2024 -- Dec 2024}
           \resumeItemListStart
             \resumeItem{Created a full-stack team rotation platform for Purdue's TREC indoor soccer with a dual-interface (iPad control + synced TV display) to reduce disputes and improve rotation efficiency.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-
-
 %
-%-----------LEADERSHIP EXPERIENCE-----------
-\section{Leadership Experience}
+%-----------LEADERSHIP-----------
+\section{Leadership}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Purdue LaunchPad Co-President}{ }
-      {Directing Purdue's largest CS/DS/AI mentorship program (90+ students), leading a leadership team to connect freshmen with upperclassmen on semester-long technical projects; managed recruitment and redesigned incentives and events, increasing engagement by 30\%.}{ }
-    \resumeSubheading
-      {Greek InterVarsity Chapter Ministry Leader, Old Masters Host, Purdue Orientation Programs Team Leader, Beta Theta Pi Judicial Chair}{ }
-      {}{ }
-  \resumeSubHeadingListEnd
-
+    \resumeProjectHeading
+      {\textbf{Purdue LaunchPad Co-President}{}}{}
+      \resumeItemListStart
+        \resumeItem{Directing Purdue's largest CS/DS/AI mentorship program (90+ students), leading a leadership team to connect freshmen with upperclassmen on semester-long technical projects; managed recruitment and redesigned incentives and events, increasing engagement by 30\%.}
+      \resumeItemListEnd
+\resumeProjectHeading
+  {\textbf{Greek InterVarsity Chapter Ministry Leader, Old Masters Host, Purdue Orientation Team Lead}{}}{}  \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages}{: JavaScript (TypeScript), HTML/CSS, C/C++, Python, SQL (PostgreSQL), Java} \\
+     \textbf{Frameworks}{: React, Node.js, NestJS, Three.js, React Native} \\
+     \textbf{Developer Tools}{: Git, GitHub, Firebase, Supabase, Vercel, Cursor, Claude Code, Jira, IntelliJ, VS Code} \\
     }}
  \end{itemize}
 
